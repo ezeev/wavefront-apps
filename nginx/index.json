@@ -1,0 +1,28 @@
+{
+    "id": "nginx",
+    "name": "NGINX",
+    "icon": "./nginx.png",
+    "description": "Monitor NGINX stats",
+    "metrics": {
+        "prefix": "nginx.",
+        "required": ["nginx.cpu.usage.idle","nginx.cpu.usage.user","nginx.cpu.usage.steal","nginx.cpu.usage.system","nginx.cpu.usage.guest"]
+    },
+    "installType": "telegraf",
+    "overview": "./overview.md",
+    "setup": "./setup.md",
+    "metricDashboard": "./metricsDashboard.json",
+    "dashboards": [
+        {
+            "name": "NGINX Host Metrics",
+            "description": "Monitor NGINX metrics for individual hosts",
+            "id": "wavefront-cassandra-host",
+            "url": "./content/nginx-host.json"
+        },
+        {
+            "name": "NGINX Cluster Metrics",
+            "description": "Monitor NGINX metrics from multiple hosts at once",
+            "id": "wavefront-cassandra-extra",
+            "url": "./content/nginx-cluster.json"
+        }
+    ]
+}
