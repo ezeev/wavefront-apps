@@ -13,16 +13,16 @@
     "metricDashboard": "./metricsDashboard.json",
     "dashboards": [
         {
-            "name": "NGINX Host Metrics",
+            "name": "NGINX Dummy Metrics",
             "description": "Monitor NGINX metrics for individual hosts",
-            "id": "wavefront-cassandra-host",
-            "url": "./content/nginx-host.json"
+            "id": "nginx-dummy",
+            "url": "./content/nginx-dummy.json"
         },
         {
-            "name": "NGINX Cluster Metrics",
-            "description": "Monitor NGINX metrics from multiple hosts at once",
-            "id": "wavefront-cassandra-extra",
-            "url": "./content/nginx-cluster.json"
+            "name": "NGINX Dummy Metrics 2",
+            "description": "Monitor NGINX metrics for individual hosts 2",
+            "id": "nginx-dummy2",
+            "url": "./content/nginx-dummy2.json"
         }
     ]
 }
