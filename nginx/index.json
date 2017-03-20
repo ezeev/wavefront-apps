@@ -3,25 +3,22 @@
     "name": "NGINX",
     "icon": "./nginx.png",
     "description": "Monitor NGINX stats",
-    "metrics": {
-        "prefix": "nginx.",
-        "required": ["nginx.cpu.usage.idle","nginx.cpu.usage.user","nginx.cpu.usage.steal","nginx.cpu.usage.system","nginx.cpu.usage.guest"]
-    },
     "installType": "telegraf",
     "overview": "./overview.md",
     "setup": "./setup.md",
-    "metricDashboard": "./metricsDashboard.json",
+    "metrics": {
+        "required": ["nginx.cpu.usage.idle","nginx.cpu.usage.user","nginx.cpu.usage.steal","nginx.cpu.usage.system","nginx.cpu.usage.guest"],
+        "charts": ["./charts/chart1.json","./charts/chart2.json","./charts/chart3.json","./charts/chart4.json"]
+    },
     "dashboards": [
         {
             "name": "NGINX Dummy Metrics",
             "description": "Monitor NGINX metrics for individual hosts",
-            "id": "nginx-dummy",
-            "url": "./content/nginx-dummy.json"
+            "dashboards": "./content/nginx-dummy.json"
         },
         {
             "name": "NGINX Dummy Metrics 2",
-            "description": "Monitor NGINX metrics for individual hosts 2",
-            "id": "nginx-dummy2",
+            "dashboards": "Monitor NGINX metrics for individual hosts 2",
             "url": "./content/nginx-dummy2.json"
         }
     ]
