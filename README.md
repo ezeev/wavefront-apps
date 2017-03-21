@@ -3,7 +3,7 @@
 ## Dummy Metrics
 
 The apps in this repo use "dummy metrics" in order to test application definitions. Dummy metrics in this case
-are Telegraf's CPU input plugin configured to emit metrics with different hostname's and prefixes.
+are Telegraf's CPU input plugin configured to emit metrics with different hostnames and prefixes.
 
 ### Example Telegraf Config:
 
