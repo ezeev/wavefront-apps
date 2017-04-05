@@ -5,7 +5,7 @@
     "description": "Get Introduced to Wavefront",
     "installType": null,
     "overview": "./overview.md",
-    "setup": "./setup.md",
+    "setup": null,
     "metrics": {
         "prefixes": ["~sample."],
         "required": ["~sample.cpu.loadavg.1m","~sample.mem.used.percentage","~sample.disk.bytes.read","~sample.network.bytes.recv","~sample.requests.latency"],
