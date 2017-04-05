@@ -1,0 +1,46 @@
+{
+    "id": "wavefront-tour",
+    "name": "Wavefront Tour",
+    "icon": "./wavefront-tour.png",
+    "description": "Get Introduced to Wavefront",
+    "installType": null,
+    "overview": "./overview.md",
+    "setup": null,
+    "metrics": {
+        "prefixes": ["~sample."],
+        "required": ["~sample.cpu.loadavg.1m","~sample.mem.used.percentage","~sample.disk.bytes.read","~sample.network.bytes.recv","~sample.requests.latency"],
+        "charts": ["./charts/chart1.json","./charts/chart2.json","./charts/chart3.json","./charts/chart4.json","./charts/chart5.json","./charts/chart6.json"]
+    },
+    "dashboards": [
+        {
+            "name": "Welcome to Wavefront",
+            "description": "Welcome dashboard for the Wavefront tour",
+            "url": "./dashboards/demo-intro.json"
+        },
+        {
+            "name": "Anomaly Detection: Finding a Needle in a Haystack",
+            "description": "See Wavefront's correlation function in action",
+            "url": "./dashboards/demo-needle-in-the-haystack.json"
+        },
+        {
+            "name": "Intelligent Alerting: Creating the Perfect Alert",
+            "description": "Prevent false alarms with Wavefront's intelligent alerting",
+            "url": "./dashboards/demo-the-perfect-alert.json"
+        },
+        {
+            "name": "Data Exploration: Analyzing an Event's Impact",
+            "description": "Pull a signal from the noise and compare time windows",
+            "url": "./dashboards/demo-analyzing-an-event.json"
+        },
+        {
+            "name": "Data Exploration: Metric Correlation and Capacity Planning",
+            "description": "Find bottle necks and explore correlations across metrics",
+            "url": "./dashboards/demo-exploration-and-capacity-planning.json"
+        },
+        {
+            "name": "Anomaly Detection: Using Weekly Patterns",
+            "description": "Find bottle necks and explore correlations across metrics",
+            "url": "./dashboards/demo-anomaly-detect-1.json"
+        }
+    ]
+}
