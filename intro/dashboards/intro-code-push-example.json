@@ -1,12 +1,12 @@
 {
-  "updateUser": "evan@wavefront.com",
-  "updateTime": 1490199067471,
+  "updateUser": "stephanie@wavefront.com",
+  "updateTime": 1490193050997,
   "displaySectionTableOfContents": false,
   "chartTitleBgColor": null,
   "owner": null,
   "displayQueryParameters": false,
   "defaultStartTime": 1438208700000,
-  "systemDashboardVersion": 3,
+  "systemDashboardVersion": 6,
   "parameters": null,
   "creatorUser": "stephanie@wavefront.com",
   "sections": [
@@ -17,7 +17,7 @@
           "charts": [
             {
               "summarization": "MEAN",
-              "name": "Analyzing an Event's Impact",
+              "name": "Example 1 - Code Push Event",
               "description": null,
               "sources": [
                 {
@@ -33,8 +33,8 @@
               ],
               "base": 0,
               "units": "Units",
-              "includeObsoleteMetrics": true,
-              "noDefaultEvents": false,
+              "includeObsoleteMetrics": false,
+              "noDefaultEvents": true,
               "chartSettings": {
                 "fixedLegendFilterLimit": 5,
                 "y1Max": null,
@@ -54,21 +54,19 @@
                 "min": null,
                 "sparklineValueColorMapApplyTo": null,
                 "sparklineDisplayFontSize": null,
-                "fixedLegendPosition": "RIGHT",
+                "fixedLegendPosition": "TOP",
                 "numTags": 4,
                 "lineType": null,
                 "max": null,
                 "sortValuesDescending": null,
                 "columnTags": null,
                 "type": "markdown-widget",
-                "fixedLegendDisplayStats": [
-                  "CURRENT"
-                ],
+                "fixedLegendDisplayStats": [],
                 "sparklineDisplayHorizontalPosition": null,
                 "sparklineDecimalPrecision": null,
                 "sparklineValueColorMapValues": null,
                 "yMax": null,
-                "fixedLegendFilterSort": "TOP",
+                "fixedLegendFilterSort": "BOTTOM",
                 "showHosts": null,
                 "groupBySource": null,
                 "windowSize": null,
@@ -87,10 +85,10 @@
                 "y1Units": "",
                 "fixedLegendHideLabel": null,
                 "stackType": null,
-                "markdownContent": "IyMjIERlbW8gRGFzaGJvYXJkIC0gQW5hbHl6aW5nIGFuIEV2ZW50J3MgSW1wYWN0Cgo+ICMjIyMjICpXaGVuIGV2ZW50cyBvY2N1ciB3aXRoaW4geW91ciBzeXN0ZW0sIHlvdSBuZWVkIHRvIGJlIGFibGUgdG8gcXVhbnRpZnkgdGhlIGltcGFjdCBvbiBrZXkgcGVyZm9ybWFuY2UgaW5kaWNhdG9ycy4gRXZlbnRzIGFyZSBub3Qgb25seSBzZXJ2aWNlIGlzc3VlcywgdGhleSBjYW4gYmUgYW55dGhpbmcgdGhhdCBhZmZlY3RzIHlvdXIgc3lzdGVtLiBJbiB0aGlzIGV4YW1wbGUgd2UgZGVtb25zdHJhdGUgaG93IGEgY3VzdG9tZXIgYW5hbHl6ZWQgdGhlIGltcGFjdCBvZiBhIGNvZGUgZGVwbG95bWVudCBvbiBvdmVyYWxsIENQVSBsb2FkIGFjY3Jvc3MgYW4gZW50aXJlIGZsZWV0IG9mIHNlcnZlcnMgaW4gYSBmZXcgc2ltcGxlIHN0ZXBzLioKCk1vZGVybiBzeXN0ZW1zIGFyZSBoaWdobHkgZGlzdHJpYnV0ZWQuIFRoaXMgbWVhbnMgdGhlcmUgYXJlIG1vcmUgbW92aW5nIHBhcnRzIHRoYXQgbmVlZCB0byBiZSBtb25pdG9yZWQuIEl0cyBubyBsb25nZXIgYSBoYW5kZnVsIG9mIG1vbm9saXRoaWMgc2VydmVycyB0aGF0IGFyZSBtaXNzaW9uIGNyaXRpY2FsLCBpdCdzIDEwcyBvciAxMDBzIG9yIGV2ZW4gMTAwMHMgb2YgaG9zdHMgYW5kL29yIGNvbnRhaW5lcnMuIFRoZSBjaGFydCBvbiB0aGUgcmlnaHQgaXMgcGxvdHRpbmcgQ1BVIGxvYWQgYXZlcmFnZSBhY2Nyb3NzIGFuIGVudGlyZSBmbGVldCBzZXJ2ZXJzLiBOb3RpY2UgdGhlIGV2ZW50IGF0IDY6MTUgUE0gYW5ub3RhdGVkIGluIHRoZSBjaGFydCBhcyAiQ29kZSBQdXNoIi4gSW4gdGhpcyBleGFtcGxlLCBhIGN1c3RvbWVyIHB1c2hlZCBhIG5ldyB2ZXJzaW9uIG9mIHRoZWlyIGFwcCB0byBhbGwgc2VydmVycyBhcm91bmQgNjoxNSBQTS4gVGhpcyBjaGFydCBpcyBub2lzeSBkdWUgdG8gdGhlIG51bWJlciBvZiBzZXJ2ZXJzLiBIb3cgY2FuIHdlIHF1YW50aWZ5IHRoZSBpbXBhY3Qgb2YgdGhlIGRlcGxveW1lbnQgZnJvbSB0aGlzIGNoYXJ0Pwo=",
+                "markdownContent": "IyMjIFVzZSBDYXNlOiBDb2RlIFB1c2ggRXZlbnQKCkluIHRoZSBkZW1vIGRhc2hib2FyZCBbRGF0YSBFeHBsb3JhdGlvbiBFeGFtcGxlOiBBbmFseXppbmcgYW4gRXZlbnQncyBJbXBhY3RdKC9kYXNoYm9hcmQvZGVtby1hbmFseXppbmctYW4tZXZlbnQpIHdlIHNob3dlZCBob3cgV2F2ZWZyb250IHF1ZXJpZXMgY2FuIGJlIHVzZWQgdG8gdW5kZXJzdGFuZCBldmVudHMuIFRoaXMgZGFzaGJvYXJkIHNob3dzIGhvdyB0byBidWlsZCB0aG9zZSBxdWVyaWVzLgoKVGhlIGNoYXJ0IG9uIHRoZSByaWdodCBpcyBzaG93aW5nIENQVSBsb2FkIGF2ZXJhZ2UgYWNjcm9zcyBhIGZsZWV0IHNlcnZlcnMuIE5vdGljZSB0aGUgZXZlbnQgYXQgNjoxNSBQTSBhbm5vdGF0ZWQgaW4gdGhlIGNoYXJ0IGFzICJDb2RlIFB1c2giLiBMYXRlciB0dXRvcmlhbHMgd2lsbCBjb3ZlciBldmVudHMgaW4gbW9yZSBkZXRhaWwuIEZvciBub3cgd2UnbGwgZm9jdXMgb24gbW9yZSBiYXNpY3Mgb2YgdGhlIHF1ZXJ5IGxhbmd1YWdlLiBXZSdsbCBjb250aW51ZSB1c2luZyB0aGUgZXhhbXBsZSBDUFUgbG9hZCBtZXRyaWMgZnJvbSBbR2V0dGluZyBTdGFydGVkIHdpdGggV2F2ZWZyb250IFF1ZXJ5IExhbmd1YWdlXSgvZGFzaGJvYXJkL2ludHJvLXRvLXRzLWxhbmd1YWdlKSwgYnV0IHRoaXMgdGltZSwgd2UncmUgbG9va2luZyBhdCBhIHRpbWUgd2luZG93IGZyb20gYW4gZXZlbnQgaW4gdGhlIHBhc3QuCgpgdHMoY3B1LmxvYWRhdmcuMW0sIHNvdXJjZT1jbHVzdGVyKilgCgpUaGlzIHF1ZXJ5IHJlbmRlcnMgYWxsIHNlcmllcyB3aXRoIHRoZSBgY3B1LmxvYWRhdmcuMW1gIG1ldHJpYywgaGF2aW5nIGEgc291cmNlIG5hbWUgdGhhdCBzdGFydHMgd2l0aCBgY2x1c3RlcmAuIFRoZSBgKmAgY2hhcmFjdGVyIGNhbiBiZSB1c2VkIGFzIGEgd2lsZGNhcmQgaW4gYW55IHBhcnQgb2YgYSBgdHNgIGV4cHJlc3Npb24u",
                 "expectedDataSpacing": null,
                 "sparklineLineColor": null,
-                "fixedLegendFilterField": "CURRENT",
+                "fixedLegendFilterField": "COUNT",
                 "sparklineValueTextMapText": null,
                 "sparklineDisplayValueType": null,
                 "windowing": "full",
@@ -198,7 +196,7 @@
           "charts": [
             {
               "summarization": "MEAN",
-              "name": "Pulling a Signal From the Noise",
+              "name": "Example 2 - Pulling a Signal From the Noise",
               "description": null,
               "sources": [
                 {
@@ -268,7 +266,7 @@
                 "y1Units": "",
                 "fixedLegendHideLabel": null,
                 "stackType": null,
-                "markdownContent": "IyMjIEFnZ3JlZ2F0aW5nIFRoZSBSZXN1bHQKCldpdGggV2F2ZWZyb250LCB5b3UgY2FuIHJ1biBhZ2dyZWdhdGlvbnMgb3ZlciB0aG91c2FuZHMgb2Ygc2VyaWVzIGF0IG9uY2UgaW4gcmVhbC10aW1lIGFuZCBnZXQgcmVzcG9uc2VzIGluc3RhbnRhbmVvdXNseS4gVGhpcyBhbGxvd3MgeW91IHRvIGFzayBhZC1ob2MgcXVlc3Rpb25zIG9mIHlvdXIgZGF0YSB3aXRob3V0IHBlbmFsdHkuIEFsbCBxdWVyaWVzIGFyZSBleGVjdXRlZCBpbiByZWFsLXRpbWUgb24gV2F2ZWZyb250J3Mgc2VydmVycy4gTGV0J3MgdGFrZSBhIGxvb2sgYXQgdGhlIGF2ZXJhZ2UgQ1BVIExvYWQgYWNjcm9zcyB0aGUgZW50aXJlIGZsZWV0IHVzaW5nIFdhdmVmcm9udCdzIGBhdmcoKWAgZnVuY3Rpb24gZHVyaW5nIHRoZSB0aW1lIGJlZm9yZSBhbmQgYWZ0ZXIgdGhlIGV2ZW50LiBUaGUgYGF2ZygpYCBmdW5jdGlvbiBpcyBbb25lIG9mIG1hbnkgYWdncmVnYXRpb25zXSgvaGVscC9yZWRpcmVjdD90bz1kb2NzL0RPQy0xMDExI2FnZ3JlZ2F0ZSAiX2JsYW5rIikgYXZhaWxhYmxlIGluIFdhdmVmcm9udC4KClRoZSByZXN1bHRzIGFyZSBwbG90dGVkIGluIHRoZSBhZGphY2VudCBjaGFydC4gV2UgaGF2ZSB2ZXJ5IHF1aWNrbHkgZ290dGVuIGEgc3VtbWFyeSBvZiB0aGUgQ29kZSBQdXNoJ3MgaW1wYWN0IG9uIENQVSBsb2FkLgo=",
+                "markdownContent": "IyMjIyBQdWxsaW5nIGEgU2lnbmFsIEZyb20gdGhlIE5vaXNlCgpJdCBsb29rcyBsaWtlIENQVSBsb2FkIGluY3JlYXNlZCBhZnRlciB0aGUgY29kZSBwdXNoIGF0IDY6MTUgUE0sIGJ1dCB0aGUgY2hhcnQgaXMgcmF0aGVyIG5vaXN5IGR1ZSB0byB0aGUgbnVtYmVyIG9mIHNlcnZlcnMgaW4gdGhlIGNsdXN0ZXIuIFdoYXQgd2Ugd2FudCB0byBrbm93IGlzIGEgc3VtbWFyeSBvZiB3aGF0IGhhcHBlbmVkIGFmdGVyIHRoZSBjb2RlIHB1c2guIE9uZSB3YXkgdG8gYWNjb21wbGlzaCB0aGlzIGlzIHdpdGggYW4gYWdncmVnYXRpb24uIEhlcmUgaXMgdGhlIHF1ZXJ5IHRoYXQgZG9lcyB0aGlzIGZvciB1czoKCmBhdmcodHMoY3B1LmxvYWRhdmcuMW0sIHNvdXJjZT1jbHVzdGVyKikpYAoKVGhpcyBxdWVyeSBpcyBpZGVudGljYWwgdG8gZXhhbXBsZSAxLCBleGNlcHQgdGhlIGBhdmcoKWAgZnVuY3Rpb24gaGFzIGJlZW4gYWRkZWQgdG8gb3VyIHF1ZXJ5LiBUaGlzIGJlaGF2ZXMgZXhhY3RseSBhcyB5b3UnZCBleHBlY3QuIEl0IGFnZ3JlZ2F0ZXMgYWxsIG9mIHRoZSBzZXJpZXMgZG93biB0byBhIHNpbmdsZSBzZXJpZXMgdGhhdCByZXByZXNlbnRzIHRoZSBvdmVyYWxsIGF2ZXJhZ2Ugb2YgdGhlIGNsdXN0ZXIuIEl0IGlzIG5vdyB2ZXJ5IGNsZWFyIHRoYXQgQ1BVIGxvYWQganVtcGVkIGF0IDY6MTUgUE0gYWZ0ZXIgdGhlIGNvZGUgcHVzaC4=",
                 "expectedDataSpacing": null,
                 "sparklineLineColor": null,
                 "fixedLegendFilterField": "CURRENT",
@@ -377,7 +375,7 @@
           "charts": [
             {
               "summarization": "MEAN",
-              "name": "Comparing to Yesterday",
+              "name": "Example 3 - Comparison",
               "description": null,
               "sources": [
                 {
@@ -447,7 +445,7 @@
                 "y1Units": "",
                 "fixedLegendHideLabel": null,
                 "stackType": null,
-                "markdownContent": "IyMjIENvbXBhcmluZyB0byB0aGUgUHJldmlvdXMgRGF5CgpUaGUgcHJldmlvdXMgY2hhcnQgc2hvd2VkIHRoYXQgQ1BVIExvYWQgb2J2aW91c2x5IGluY3JlYXNlZCBhZnRlciA2OjE1IFBNLCBidXQgY2FuIHdlIHNheSBmb3IgY2VydGFpbiB0aGF0IHRoZSBjb2RlIHB1c2ggY2F1c2VkIHRoaXM/IFdoYXQgaWYgd2Ugd2FudGVkIHRvIGNvbXBhcmUgdGhpcyB0byBwcmV2aW91cyBjb2RlIHB1c2hlcywgb3IgZXZlbiBtb3JlIHNpbXBseSwgY29tcGFyZSBhZ2FpbnN0IHRoZSBwcmV2aW91cyBkYXkgdG8gZW5zdXJlIHRoZXJlIGlzbid0IGFueSBvdGhlciByZWd1bGFyIHRhc2sgcnVubmluZyBvbiB0aGUgc2VydmVycyB0aGF0IGNvdWxkIGNhdXNlIGFuIGluY3JlYXNlIGluIENQVSBsb2FkIGF0IDY6MTUgUE0uIFdhdmVmcm9udCdzIGxhZyBmdW5jdGlvbiBtYWtlcyBpdCBlYXN5IHRvIGNvbXBhcmUgaGlzdG9yaWNhbCBkYXRhLiBZb3UgY2FuIGNvbXBhcmUgdGhlIHJlc3VsdHMgb2YgYW55IHF1ZXJ5IHRvIGEgZGF5LCBhIHdlZWssIGEgbW9udGgsIDEyIG1vbnRocyBhZ28gLSBpdCBtYWtlcyBubyBkaWZmZXJlbmNlIHRvIFdhdmVmcm9udCAoYXMgbG9uZyBhcyB0aGUgZGF0YSBleGlzdHMpLiBUaGUgYWRqYWNlbnQgY2hhcnQgY29tcGFyZXMgdGhlIHF1ZXJ5IHJlc3VsdHMgdG8gdGhlIHNhbWUgdGltZSB5ZXN0ZXJkYXkuIFRoaXMgcnVsZXMgb3V0IGEgZGFpbHkgZXZlbnQgYW5kIHNob3dzIHVzIGV4YWN0bHkgaG93IG11Y2ggdGhlIENQVSBMb2FkIGluY3JlYXNlZCB2ZXJzdXMgdGhlIHByaW9yIGRheS4K",
+                "markdownContent": "IyMjIyBMYWdnaW5nIERhdGEgRm9yIENvbXBhcmlzb24KCk5vdyB0aGF0IHdlIGtub3cgdGhlcmUgd2FzIGEgQ1BVIGxvYWQgaW5jcmVhc2UgY29pbmNpZGluZyB3aXRoIHRoZSBDb2RlIFB1c2ggZXZlbnQsIGxldCdzIGNvbXBhcmUgdGhlIENQVSBMb2FkIGZyb20gdGhpcyB0aW1lIHdpbmRvdyB3aXRoIHRoZSBDUFUgTG9hZCBmcm9tIHRoZSBwcmV2aW91cyBkYXkuIFdlJ2xsIGRvIHRoaXMgd2l0aCBXYXZlZnJvbnQncyBgbGFnKClgIGZ1bmN0aW9uLgoKYGF2Zyh0cyhjcHUubG9hZGF2Zy4xbSwgc291cmNlPWNsdXN0ZXIqKSlgCgpgbGFnKDFkLGF2Zyh0cyhjcHUubG9hZGF2Zy4xbSwgc291cmNlPWNsdXN0ZXIqKSkpYAoKVGhlcmUgYXJlIG5vdyAyIHF1ZXJpZXMgaW4gb3VyIGNoYXJ0LiBUaGUgcXVlcnkgZnJvbSBFeGFtcGxlIDIsIGFuZCBhIG5ldyBxdWVyeSB3aXRoIHRoZSBgbGFnKClgIGZ1bmN0aW9uLiBJbiB0aGlzIGV4YW1wbGUgd2UncmUgcGFzc2luZyBgMWRgIHdoaWNoIG1lYW5zIG9uZSBkYXkuIFlvdSBjYW4gYWxzbyBwYXNzIHNlY29uZHMgKGBzYCksIG1pbnV0ZXMgKGBtYCksIGFuZCBob3VycyAoYGhgKS4gWW91IGNhbiBsYWcgYmFjayBhcyBmYXIgYXMgeW91IHdpc2guIFRoaXMgZ2l2ZXMgdXMgYSBjbGVhciAiYmVmb3JlIiBhbmQgImFmdGVyIiB2aWV3ICh0b2RheSB2cy4geWVzdGVyZGF5KSBvZiB0aGUgY2x1c3RlcidzIGF2ZXJhZ2UgQ1BVIExvYWQuCg==",
                 "expectedDataSpacing": null,
                 "sparklineLineColor": null,
                 "fixedLegendFilterField": "CURRENT",
@@ -562,12 +560,12 @@
           ]
         },
         {
-          "heightFactor": 120,
+          "heightFactor": 100,
           "charts": [
             {
               "summarization": "MEAN",
-              "name": "Quantifying the CPU Load Increase",
-              "description": null,
+              "name": "Example 4 - Further Quantifying",
+              "description": "",
               "sources": [
                 {
                   "secondaryAxis": null,
@@ -580,7 +578,7 @@
                   "scatterPlotSource": "Y"
                 }
               ],
-              "base": 0,
+              "base": 1,
               "units": "Units",
               "includeObsoleteMetrics": false,
               "noDefaultEvents": true,
@@ -634,7 +632,7 @@
                 "y1Units": "",
                 "fixedLegendHideLabel": null,
                 "stackType": null,
-                "markdownContent": "IyMjIFF1YW50aWZ5aW5nIHRoZSBDUFUgTG9hZCBJbmNyZWFzZQoKVGhlIHByZXZpb3VzIGNoYXJ0IHBsb3R0ZWQgdGhlIHJlc3VsdHMgb2YgdHdvIHF1ZXJpZXM6IDEpIHRoZSBhdmVyYWdlIENQVSBMb2FkIGR1cmluZyB0aGUgY29kZSBwdXNoIGFuZCAyKSB0aGUgYXZlcmFnZSBDUFUgbG9hZCAyNCBob3VycyBwcmlvciB0byB0aGUgY29kZSBwdXNoLiBJbiBvcmRlciB0byBjYWxjdWxhdGUgdGhlICUgaW1wYWN0IG9mIHRoZSBjb2RlIHB1c2gsIHdlIGNhbiBzaW1wbHkgZGl2aWRlIHRoZSBmaXJzdCBxdWVyeSBmcm9tIHRoZSBzZWNvbmQgcXVlcnkuIFRoaXMgaXMgaG93IHRoZSBhZGphY2VudCBzaW5nbGUgc3RhdCBwYW5lbCBpcyBjYWxjdWxhdGluZyAzMCUuIFdhdmVmcm9udCBlbmFibGVzIHRlYW1zIHRvIG9ic2VydmUgZXZlbnRzIGluIHJlYWwtdGltZSwgcXVpY2tseSBmaW5kIHRoZSBpbmZvcm1hdGlvbiB0aGV5IG5lZWQgYW5kIGV4dHJhY3QgbWVhbmluZyBmcm9tIGl0LiBJbiBhIGZldyBzaW1wbGUgc3RlcHMsIHdlJ3ZlIHF1YW50aWZpZWQgdGhlIG5vaXN5IENQVSBsb2FkIGNoYXJ0IGludG8gYSBzaW5nbGUgbnVtYmVyIHRoYXQgdGVsbHMgdXMgdGhlIGltcGFjdCBvZiB0aGUgY29kZSBwdXNoIGV2ZW50Lgo=",
+                "markdownContent": "IyMjIyBGdXJ0aGVyIFF1YW50aWZ5aW5nIHRoZSBDUFUgTG9hZCBJbmNyZWFzZQoKQnkgZGl2aWRpbmcgdGhlIGZpcnN0IHF1ZXJ5IGZyb20gdGhlIHNlY29uZCBxdWVyeSBmcm9tIEV4YW1wbGUgMywgd2UgY2FuIGNyZWF0ZSBhIHJhdGlvLgoKYGF2Zyh0cyhjcHUubG9hZGF2Zy4xbSwgc291cmNlPWNsdXN0ZXIqKSkgLyBsYWcoMWQsYXZnKHRzKGNwdS5sb2FkYXZnLjFtLCBzb3VyY2U9Y2x1c3RlciopKSlgCgpUaGlzIGlzIG9uZSBvZiB0aGUgbW9zdCBwb3dlcmZ1bCBmZWF0dXJlcyBvZiB0aGUgYHRzKClgIGxhbmd1YWdlIC0gdGhlIGFiaWxpdHkgdG8gY29tcG9zZSBxdWVyaWVzIHRvZ2V0aGVyIHRvIGZpbmQgYW4gYW5zd2VyIHRvIHF1ZXN0aW9ucyBxdWlja2x5LgoKWzwgQmFjayB0byBJbnRyb2R1Y3Rpb25dKC9kYXNoYm9hcmQvaW50cm8taG9tZSkK",
                 "expectedDataSpacing": null,
                 "sparklineLineColor": null,
                 "fixedLegendFilterField": "COUNT",
@@ -648,7 +646,7 @@
             {
               "summarization": "MAX",
               "name": "CPU Increase After Code Push",
-              "description": "this is a test\n",
+              "description": "",
               "sources": [
                 {
                   "secondaryAxis": null,
@@ -764,92 +762,6 @@
               "interpolatePoints": false
             }
           ]
-        },
-        {
-          "heightFactor": 100,
-          "charts": [
-            {
-              "summarization": "MEAN",
-              "name": "More Demo Dashboards",
-              "description": "",
-              "sources": [
-                {
-                  "secondaryAxis": null,
-                  "sourceDescription": "",
-                  "name": "Source",
-                  "querybuilderSerialization": "{\"_v\":1,\"metric\":\"\",\"filters\":[[],\"and\"],\"functions\":[]}",
-                  "querybuilderEnabled": true,
-                  "disabled": null,
-                  "query": "",
-                  "scatterPlotSource": "Y"
-                }
-              ],
-              "base": 1,
-              "units": "Units",
-              "includeObsoleteMetrics": false,
-              "noDefaultEvents": true,
-              "chartSettings": {
-                "fixedLegendFilterLimit": 5,
-                "y1Max": null,
-                "invertDynamicLegendHoverControl": null,
-                "showLabels": null,
-                "y1UnitAutoscaling": false,
-                "fixedLegendEnabled": false,
-                "y1Min": null,
-                "sparklineValueTextMapThresholds": null,
-                "xMax": null,
-                "y0ScaleSIBy1024": false,
-                "sparklineSize": null,
-                "y1ScaleSIBy1024": false,
-                "sparklineFillColor": null,
-                "sparklineValueColorMapColors": null,
-                "tagMode": "all",
-                "min": null,
-                "sparklineValueColorMapApplyTo": null,
-                "sparklineDisplayFontSize": null,
-                "fixedLegendPosition": "TOP",
-                "numTags": 4,
-                "lineType": null,
-                "max": null,
-                "sortValuesDescending": null,
-                "columnTags": null,
-                "type": "markdown-widget",
-                "fixedLegendDisplayStats": [],
-                "sparklineDisplayHorizontalPosition": null,
-                "sparklineDecimalPrecision": null,
-                "sparklineValueColorMapValues": null,
-                "yMax": null,
-                "fixedLegendFilterSort": "BOTTOM",
-                "showHosts": null,
-                "groupBySource": null,
-                "windowSize": null,
-                "customTags": [],
-                "xMin": null,
-                "sparklineDisplayPostfix": null,
-                "y0UnitAutoscaling": false,
-                "sparklineValueColorMapValuesV2": null,
-                "timeBasedColoring": null,
-                "sparklineDisplayVerticalPosition": null,
-                "sparklineDisplayPrefix": null,
-                "yMin": null,
-                "showRawValues": null,
-                "sparklineDisplayColor": null,
-                "fixedLegendUseRawStats": false,
-                "y1Units": "",
-                "fixedLegendHideLabel": null,
-                "stackType": null,
-                "markdownContent": "IyMjIyBNb3JlIERlbW8gRGFzaGJvYXJkcwoKLSBbV2VsY29tZSB0byBXYXZlZnJvbnRdKC9kYXNoYm9hcmQvZGVtby1pbnRybykKLSBbQW5vbWFseSBEZXRlY3Rpb246IEZpbmRpbmcgYSBOZWVkbGUgaW4gYSBIYXlzdGFja10oL2Rhc2hib2FyZC9kZW1vLW5lZWRsZS1pbi10aGUtaGF5c3RhY2spCi0gW0ludGVsbGlnZW50IEFsZXJ0aW5nOiBDcmVhdGluZyB0aGUgUGVyZmVjdCBBbGVydF0oL2Rhc2hib2FyZC9kZW1vLXRoZS1wZXJmZWN0LWFsZXJ0KQotIFtEYXRhIEV4cGxvcmF0aW9uOiBBbmFseXppbmcgYW4gRXZlbnQncyBJbXBhY3RdKC9kYXNoYm9hcmQvZGVtby1hbmFseXppbmctYW4tZXZlbnQpCi0gW0RhdGEgRXhwbG9yYXRpb246IE1ldHJpYyBDb3JyZWxhdGlvbiBhbmQgQ2FwYWNpdHkgUGxhbm5pbmddKC9kYXNoYm9hcmQvZGVtby1leHBsb3JhdGlvbi1hbmQtY2FwYWNpdHktcGxhbm5pbmcpCi0gW0Fub21hbHkgRGV0ZWN0aW9uOiBVc2luZyBXZWVrbHkgUGF0dGVybnNdKC9kYXNoYm9hcmQvZGVtby1hbm9tYWx5LWRldGVjdC0xKQo=",
-                "expectedDataSpacing": null,
-                "sparklineLineColor": null,
-                "fixedLegendFilterField": "COUNT",
-                "sparklineValueTextMapText": null,
-                "sparklineDisplayValueType": null,
-                "windowing": "full",
-                "autoColumnTags": false
-              },
-              "interpolatePoints": false
-            }
-          ]
         }
       ],
       "name": "Code Push Event"
@@ -864,17 +776,17 @@
       "stephanie@wavefront.com": []
     },
     "customerTags": [
-      "wavefront.tour"
+      "wavefront.tutorial"
     ]
   },
   "customer": "collector",
   "eventFilterType": "BYCHART",
   "displayDescription": false,
   "chartTitleColor": null,
-  "name": "Demo: Analyzing an Event ",
-  "url": "demo-analyzing-an-event",
+  "name": "Intro: Use Case: Code Push Event ",
+  "url": "intro-code-push-example",
   "chartTitleScalar": 0,
-  "createdTime": 1489106467051,
+  "createdTime": 1488836805021,
   "eventQuery": "",
   "defaultEndTime": 1438228140000
 }

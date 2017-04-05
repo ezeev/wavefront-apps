@@ -2,6 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e4627d-30f4-43a2-9a59-59ff4f724259" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-anomaly-detection-series-1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-code-push-example.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-creating-alerts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-home.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-sample-cluster.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-telegraf-sample.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-to-dashboards.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro/dashboards/intro-to-ts-language.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/dashboards/demo-exploration-and-capacity-planning.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/dashboards/demo-needle-in-the-haystack.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/dashboards/demo-the-perfect-alert.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/charts/chart1.json" afterPath="$PROJECT_DIR$/intro/charts/chart1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/charts/chart2.json" afterPath="$PROJECT_DIR$/intro/charts/chart2.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/charts/chart3.json" afterPath="$PROJECT_DIR$/intro/charts/chart3.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/charts/chart4.json" afterPath="$PROJECT_DIR$/intro/charts/chart4.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/charts/chart5.json" afterPath="$PROJECT_DIR$/intro/charts/chart5.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/charts/chart6.json" afterPath="$PROJECT_DIR$/intro/charts/chart6.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/dashboards/demo-analyzing-an-event.json" afterPath="$PROJECT_DIR$/intro/dashboards/intro-code-push-example.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/dashboards/demo-anomaly-detect-1.json" afterPath="$PROJECT_DIR$/intro/dashboards/intro-anomaly-detection-series-1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/dashboards/demo-intro.json" afterPath="$PROJECT_DIR$/intro/dashboards/intro-to-ts-language.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/index.json" afterPath="$PROJECT_DIR$/intro/index.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/overview.md" afterPath="$PROJECT_DIR$/intro/overview.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/setup.md" afterPath="$PROJECT_DIR$/intro/setup.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial/wavefront-tour.png" afterPath="$PROJECT_DIR$/intro/wavefront-tour.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +51,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart1.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tutorial/charts/chart1.json">
+      <file leaf-file-name="chart1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intro/charts/chart1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intro-anomaly-detection-series-1.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intro/dashboards/intro-anomaly-detection-series-1.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -96,7 +130,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
+              <option name="myItemId" value="intro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -110,7 +144,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
+              <option name="myItemId" value="intro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wavefront-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wavefront-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -130,6 +182,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/intro/dashboards" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tour/dashboards" />
     </key>
@@ -522,7 +575,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="838" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -539,7 +592,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -586,7 +639,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/charts/chart1.json">
+    <entry file="file://$PROJECT_DIR$/intro/charts/chart1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro/dashboards/intro-anomaly-detection-series-1.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
