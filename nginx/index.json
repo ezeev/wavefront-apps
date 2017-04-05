@@ -15,11 +15,11 @@
         {
             "name": "NGINX Dummy Metrics",
             "description": "Monitor NGINX metrics for individual hosts",
-            "dashboards": "./dashboards/nginx-dummy.json"
+            "url": "./dashboards/nginx-dummy.json"
         },
         {
             "name": "NGINX Dummy Metrics 2",
-            "dashboards": "Monitor NGINX metrics for individual hosts 2",
+            "description": "Monitor NGINX metrics for individual hosts 2",
             "url": "./dashboards/nginx-dummy2.json"
         }
     ]
