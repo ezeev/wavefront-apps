@@ -41,6 +41,21 @@
             "name": "Anomaly Detection: Using Weekly Patterns",
             "description": "Find bottle necks and explore correlations across metrics",
             "url": "./dashboards/demo-anomaly-detect-1.json"
+        },
+        {
+            "name": "Anomaly Detection: Using Weekly Patterns",
+            "description": "Find bottle necks and explore correlations across metrics",
+            "url": "./dashboards/demo-anomaly-detect-1.json"
+        },
+        {
+            "name": "Example Cluster Dashboard",
+            "description": "An example dashboard providing visibility into cluster level KPIs",
+            "url": "./dashboards/intro-telegraf-sample.json"
+        },
+        {
+            "name": "Example Telegraf Dashboard",
+            "description": "An example dashboard providing visibility into a single host",
+            "url": "./dashboards/intro-telegraf-sample.json"
         }
     ]
 }
