@@ -1,0 +1,26 @@
+{
+    "id": "wavefront-tour",
+    "name": "Wavefront Tour",
+    "icon": "./wavefront-tour.png",
+    "description": "Get Introduced to Wavefront",
+    "installType": null,
+    "overview": "./overview.md",
+    "setup": "./setup.md",
+    "metrics": {
+        "prefixes": ["~sample."],
+        "required": ["~sample.cpu.loadavg.1m","~sample.mem.used.percentage","~sample.disk.bytes.read","~sample.network.bytes.recv","~sample.requests.latency"],
+        "charts": ["./charts/chart1.json","./charts/chart2.json","./charts/chart3.json","./charts/chart4.json","./charts/chart5.json","./charts/chart6.json"]
+    },
+    "dashboards": [
+        {
+            "name": "NGINX Dummy Metrics",
+            "description": "Monitor NGINX metrics for individual hosts",
+            "dashboards": "./dashboards/nginx-dummy.json"
+        },
+        {
+            "name": "NGINX Dummy Metrics 2",
+            "dashboards": "Monitor NGINX metrics for individual hosts 2",
+            "url": "./dashboards/nginx-dummy2.json"
+        }
+    ]
+}

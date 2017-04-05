@@ -7,6 +7,7 @@
     "overview": "./overview.md",
     "setup": "./setup.md",
     "metrics": {
+        "prefixes": ["nginx."],
         "required": ["nginx.cpu.usage.idle","nginx.cpu.usage.user","nginx.cpu.usage.steal","nginx.cpu.usage.system","nginx.cpu.usage.guest"],
         "charts": ["./charts/chart1.json","./charts/chart2.json","./charts/chart3.json","./charts/chart4.json"]
     },
