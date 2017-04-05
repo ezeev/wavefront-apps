@@ -13,14 +13,34 @@
     },
     "dashboards": [
         {
-            "name": "NGINX Dummy Metrics",
-            "description": "Monitor NGINX metrics for individual hosts",
-            "dashboards": "./dashboards/nginx-dummy.json"
+            "name": "Welcome to Wavefront",
+            "description": "Welcome dashboard for the Wavefront tour",
+            "url": "./dashboards/demo-intro.json"
         },
         {
-            "name": "NGINX Dummy Metrics 2",
-            "dashboards": "Monitor NGINX metrics for individual hosts 2",
-            "url": "./dashboards/nginx-dummy2.json"
+            "name": "Anomaly Detection: Finding a Needle in a Haystack",
+            "description": "See Wavefront's correlation function in action",
+            "url": "./dashboards/demo-needle-in-the-haystack.json"
+        },
+        {
+            "name": "Intelligent Alerting: Creating the Perfect Alert",
+            "description": "Prevent false alarms with Wavefront's intelligent alerting",
+            "url": "./dashboards/demo-the-perfect-alert.json"
+        },
+        {
+            "name": "Data Exploration: Analyzing an Event's Impact",
+            "description": "Pull a signal from the noise and compare time windows",
+            "url": "./dashboards/demo-analyzing-an-event.json"
+        },
+        {
+            "name": "Data Exploration: Metric Correlation and Capacity Planning",
+            "description": "Find bottle necks and explore correlations across metrics",
+            "url": "./dashboards/demo-exploration-and-capacity-planning.json"
+        },
+        {
+            "name": "Anomaly Detection: Using Weekly Patterns",
+            "description": "Find bottle necks and explore correlations across metrics",
+            "url": "./dashboards/demo-anomaly-detect-1.json"
         }
     ]
 }
