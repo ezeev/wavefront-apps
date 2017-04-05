@@ -1,0 +1,46 @@
+{
+    "id": "wavefront-tutorial",
+    "name": "Wavefront Tutorial",
+    "icon": "./wavefront-tutorial.png",
+    "description": "Start Learning How to Use Wavefront",
+    "installType": null,
+    "overview": "./overview.md",
+    "setup": null,
+    "metrics": {
+        "prefixes": ["~sample."],
+        "required": ["~sample.cpu.loadavg.1m","~sample.mem.used.percentage","~sample.disk.bytes.read","~sample.network.bytes.recv","~sample.requests.latency"],
+        "charts": ["./charts/chart1.json","./charts/chart2.json","./charts/chart3.json","./charts/chart4.json","./charts/chart5.json","./charts/chart6.json"]
+    },
+    "dashboards": [
+        {
+            "name": "Introduction to Wavefront",
+            "description": "Wavefront tutorial introduction",
+            "url": "./dashboards/intro-home.json"
+        },
+        {
+            "name": "Getting Started with Wavefront Query Language",
+            "description": "Learn the basics of the ts() language",
+            "url": "./dashboards/intro-to-ts-language.json"
+        },
+        {
+            "name": "Dashboard Basics: Chart Types",
+            "description": "Learn about the different types of charts and widgets in Wavefront dashboards",
+            "url": "./dashboards/intro-to-dashboards.json"
+        },
+        {
+            "name": "Creating Alerts",
+            "description": "Learn how alerts work",
+            "url": "./dashboards/intro-creating-alerts.json"
+        },
+        {
+            "name": "Use Case: Code Push Event",
+            "description": "Learn how to apply the ts() language to a real use case",
+            "url": "./dashboards/intro-code-push-example.json"
+        },
+        {
+            "name": "Use Case: Anomaly Detection Series - Part 1",
+            "description": "Learn how to create a baseline and find anomalies from daily/weekly patterns",
+            "url": "./dashboards/intro-anomaly-detection-series-1.json"
+        }
+    ]
+}
