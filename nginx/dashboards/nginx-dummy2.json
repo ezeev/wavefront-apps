@@ -1,4 +1,5 @@
 {
+  "systemDashboardVersion": 3,
   "name": "NGINX Dummy Metrics 2",
   "description": null,
   "eventFilterType": "BYCHART",

@@ -4,7 +4,6 @@
         "title": "Applications",
         "subtitle": "Deep Integrations",
         "apps": [
-            "./aws/index.json",
             "./tour/index.json"
           ]
     },
@@ -12,15 +11,14 @@
         "title": "Integrations",
         "subtitle": "Less-deep Integrations",
         "apps": [
-            "./nginx/index.json",
-            "./graphite/index.json"
+            "./nginx/index.json"
         ]
     },
     {
         "title": "Monitoring",
         "subtitle": "How we get alerts to your phone at 3am in the morning",
         "apps": [
-            "./pagerduty/index.json"
+            "./tutorial/index.json"
         ]
     }
 ]

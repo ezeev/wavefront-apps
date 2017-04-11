@@ -1,9 +1,8 @@
 {
-    "id": "wavefront-tutorial",
+    "id": "tutorial",
     "name": "Wavefront Tutorial",
     "icon": "./wavefront-tutorial.png",
     "description": "Start Learning How to Use Wavefront",
-    "installType": null,
     "overview": "./overview.md",
     "setup": null,
     "metrics": {
