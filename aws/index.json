@@ -1,0 +1,61 @@
+{
+    "id": "tour",
+    "name": "Amazon Web Services",
+    "icon": "./aws.png",
+    "description": "AWS Integration",
+    "installType": "aws",
+    "overview": "./overview.md",
+    "setup": null,
+    "metrics": {
+        "prefixes": ["aws."],
+        "required": ["aws.ec2.cpuutilization","aws.ebs.volumeiops"],
+        "charts": ["./charts/chart1.json","./charts/chart2.json","./charts/chart3.json","./charts/chart4.json","./charts/chart5.json"]
+    },
+    "dashboards": [
+        {
+            "name": "AWS: Summary",
+            "description": "View AWS service KPIs in a single dashboard",
+            "url": "./dashboards/wavefront-aws-summary.json"
+        },
+        {
+            "name": "AWS: Billing",
+            "description": "View detailed billing metrics and potential cost saving opportunities",
+            "url": "./dashboards/wavefront-aws-billing.json"
+        },
+        {
+            "name": "AWS: EC2",
+            "description": "View detailed metrics from your EC2 instances",
+            "url": "./dashboards/wavefront-aws-ec2.json"
+        },
+        {
+            "name": "AWS: ECS",
+            "description": "View detailed metrics from ECS services, task definitions, and containers",
+            "url": "./dashboards/wavefront-aws-ecs.json"
+        },
+        {
+            "name": "AWS: ELB",
+            "description": "View detailed metrics from your ELBs",
+            "url": "./dashboards/wavefront-aws-elb.json"
+        },
+        {
+            "name": "AWS: DynamoDB",
+            "description": "View detailed metrics about your DynamoDB services",
+            "url": "./dashboards/wavefront-aws-dynamodb.json"
+        },
+        {
+            "name": "AWS: Lambda",
+            "description": "View detailed metrics about your Lambda services",
+            "url": "./dashboards/wavefront-aws-lambda.json"
+        },
+        {
+            "name": "AWS: Redshift",
+            "description": "View detailed metrics about your Redshift services",
+            "url": "./dashboards/wavefront-aws-redshift.json"
+        },
+        {
+            "name": "AWS: Pricing",
+            "description": "View the current prices for different EC2 instance types in each AWS region",
+            "url": "./dashboards/wavefront-aws-pricing.json"
+        }
+    ]
+}

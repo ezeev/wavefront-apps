@@ -1,0 +1,103 @@
+{
+              "name": "ELB Responses by Code",
+              "sources": [
+                {
+                  "name": "data",
+                  "query": "align(1m, mean, taggify(default(24h,1m,0,ts(\"aws.elb.httpcode_backend_*xx\", LoadBalancerName=\"*\" and AvailabilityZone=\"*\")), metric, responseCode, 2, \"_\"))",
+                  "disabled": true,
+                  "scatterPlotSource": "Y",
+                  "querybuilderSerialization": null,
+                  "querybuilderEnabled": false,
+                  "secondaryAxis": false,
+                  "sourceDescription": ""
+                },
+                {
+                  "name": "reponse",
+                  "query": "avg(${data}, responseCode)",
+                  "disabled": null,
+                  "scatterPlotSource": "Y",
+                  "querybuilderSerialization": null,
+                  "querybuilderEnabled": false,
+                  "secondaryAxis": false,
+                  "sourceDescription": ""
+                }
+              ],
+              "units": "",
+              "base": 1,
+              "noDefaultEvents": false,
+              "interpolatePoints": false,
+              "includeObsoleteMetrics": false,
+              "description": "This chart uses taggify() to extract the response code (2xx, 3xx, 4xx or 5xx) from the CloudWatch metric name and then aggregates by that tag.",
+              "chartSettings": {
+                "type": "line",
+                "max": null,
+                "min": null,
+                "lineType": "linear",
+                "stackType": "zero",
+                "expectedDataSpacing": null,
+                "windowing": "full",
+                "windowSize": null,
+                "showHosts": null,
+                "showLabels": null,
+                "showRawValues": null,
+                "autoColumnTags": false,
+                "columnTags": null,
+                "tagMode": "all",
+                "numTags": 4,
+                "customTags": [],
+                "groupBySource": null,
+                "sortValuesDescending": null,
+                "y1Max": null,
+                "y1Min": null,
+                "y1Units": "",
+                "y0ScaleSIBy1024": false,
+                "y1ScaleSIBy1024": false,
+                "y0UnitAutoscaling": false,
+                "y1UnitAutoscaling": false,
+                "invertDynamicLegendHoverControl": null,
+                "fixedLegendEnabled": false,
+                "fixedLegendUseRawStats": false,
+                "fixedLegendPosition": "RIGHT",
+                "fixedLegendDisplayStats": [
+                  "CURRENT"
+                ],
+                "fixedLegendFilterSort": "TOP",
+                "fixedLegendFilterLimit": 5,
+                "fixedLegendFilterField": "CURRENT",
+                "fixedLegendHideLabel": null,
+                "xMax": null,
+                "xMin": null,
+                "yMax": null,
+                "yMin": null,
+                "timeBasedColoring": null,
+                "markdownContent": null,
+                "sparklineDisplayValueType": "LABEL",
+                "sparklineDisplayColor": "rgba(255,255,255,1)",
+                "sparklineDisplayVerticalPosition": null,
+                "sparklineDisplayHorizontalPosition": "MIDDLE",
+                "sparklineDisplayFontSize": "125",
+                "sparklineDisplayPrefix": null,
+                "sparklineDisplayPostfix": null,
+                "sparklineSize": "NONE",
+                "sparklineLineColor": null,
+                "sparklineFillColor": "rgba(13,166,232,1)",
+                "sparklineValueColorMapColors": [
+                  "rgba(242,101,34,1)",
+                  "rgba(92,184,92,1)"
+                ],
+                "sparklineValueColorMapValuesV2": [
+                  1
+                ],
+                "sparklineValueColorMapValues": null,
+                "sparklineValueColorMapApplyTo": "BACKGROUND",
+                "sparklineDecimalPrecision": null,
+                "sparklineValueTextMapText": [
+                  "N/A",
+                  "UP"
+                ],
+                "sparklineValueTextMapThresholds": [
+                  1
+                ]
+              },
+              "summarization": "MEAN"
+}

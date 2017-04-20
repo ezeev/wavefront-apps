@@ -4,7 +4,9 @@
         "title": "Applications",
         "subtitle": "Deep Integrations",
         "apps": [
-            "./tour/index.json"
+            "./tour/index.json",
+            "./tutorial/index.json",
+            "./aws/index.json"
           ]
     },
     {
@@ -17,8 +19,6 @@
     {
         "title": "Monitoring",
         "subtitle": "How we get alerts to your phone at 3am in the morning",
-        "apps": [
-            "./tutorial/index.json"
-        ]
+        "apps": []
     }
 ]
